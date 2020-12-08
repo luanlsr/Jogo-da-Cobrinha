@@ -1,6 +1,5 @@
 body{
-    height: 95vh;
-    width: 95vw;
+    
     display: flex;
     justify-content: center;
     align-items: center;
@@ -10,12 +9,57 @@ body{
 h1{
     color: green;
     font-size: 50px;
+    height: 30px;
 }
 h2{
     font-size: 30px;
     color: white;
+    height: 30px;
+    padding-right: 20px;
 }
 h3{
-    font-size: 60px;
+    font-size: 30px;
     color: red;
+    height: 30px;
+}
+.pontos{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+#botaoUp{
+    height: 50px;
+    width: 70px;
+    font-weight: bold;
+    margin-top: 20px;
+    cursor: pointer;
+}
+#botaoLeft{
+    height: 50px;
+    width: 70px;
+    margin-right: 80px;
+    font-weight: bold;
+    cursor: pointer;
+    
+}
+#botaoRight{
+    height: 50px;
+    width: 70px;;
+    font-weight: bold;
+    cursor: pointer;
+    
+}
+#botaoDown{
+    height: 50px;
+    width: 70px;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+.botaoMeio{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
 }
